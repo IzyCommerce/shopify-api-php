@@ -158,9 +158,9 @@ class InventoryItem
     }
 
     /**
-     * @return string
+     * @return string || null
      */
-    public function getCost(): string
+    public function getCost()
     {
         return $this->cost;
     }
