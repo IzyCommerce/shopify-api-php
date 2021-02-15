@@ -168,7 +168,7 @@ class InventoryItem
     /**
      * @param string $cost
      */
-    public function setCost(string $cost): void
+    public function setCost($cost)
     {
         $this->cost = $cost;
     }
